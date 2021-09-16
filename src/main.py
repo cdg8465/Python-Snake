@@ -1,5 +1,6 @@
 import pygame
 
+from Game import Game
 from variables import WINDOW_SIZE
 
 
@@ -7,7 +8,9 @@ def main():
     pygame.init()
 
     pygame.display.set_caption("Snake")
-    pygame.display.set_mode(WINDOW_SIZE)
+    window = pygame.display.set_mode(WINDOW_SIZE)
+
+    Game(window)
 
     while True:
         for event in pygame.event.get():

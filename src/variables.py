@@ -1,4 +1,9 @@
-# Dimensions
+# Dimensions (X, Y)
 WINDOW_SIZE = (400, 400)
 GRID_SIZE = (40, 40)
 CELL_SIZE = (10, 10)
+
+# Grid IDs
+EMPTY_CELL = 0
+FOOD_CELL = 1
+SNAKE_CELL = 2
