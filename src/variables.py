@@ -1,0 +1,4 @@
+# Dimensions
+WINDOW_SIZE = (400, 400)
+GRID_SIZE = (40, 40)
+CELL_SIZE = (10, 10)
